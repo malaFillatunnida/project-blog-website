@@ -143,14 +143,19 @@ const Home2 = () => {
           <div class="aside">
             <div class="topics">
               <h2 class="h2">Kategori</h2>
-              {category.map((blog) => (
+              {/* {category.map((blog) => (
                 <div class="topic-btn">
                   <p>{blog.name}</p>
                 </div>
-              ))}
+              ))} */}
+              <div class="topic-btn">Pendidikan</div>
+
+              <div class="topic-btn">Pembaruan G2 Academy</div>
+
+              <div class="topic-btn">Teknologi</div>
             </div>
             <div class="contact">
-              <h2 class="h2">About Us</h2>
+              <h2 class="h2">Tentang kami</h2>
 
               <div class="wrapper">
                 <p>
@@ -214,7 +219,7 @@ const Home2 = () => {
               </div>
             </div>
             <div class="newsletter">
-              <h2 class="h2">Latest Post</h2>
+              <h2 class="h2">Postingan Terbaru</h2>
               {post.map((posts) => {
                 return (
                   <div class="wrapper">
